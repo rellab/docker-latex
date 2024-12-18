@@ -1,6 +1,14 @@
 # docker-latex
 Docker container for LaTeX
 
+## Usage
+
+```bash
+docker pull ghcr.io/rellab/docker-latex:latest
+```
+
+## Usege with VSCode
+
 A sample for devcontainer.json
 ```json
 {
