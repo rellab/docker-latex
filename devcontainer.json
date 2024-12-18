@@ -1,11 +1,6 @@
-# docker_latex
-Dockerfile for LaTeX
-
-A sample for devcontainer.json
-```json
 {
-    "name": "docker-latex",
-    "image": "ghcr.io/rellab/docker-latex:latest",
+    "name": "mylatex",
+    "image": "okamumu/texlive:latest",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -145,4 +140,3 @@ A sample for devcontainer.json
         }
     }
 }
-```
