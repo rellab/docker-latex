@@ -1,5 +1,5 @@
-# docker_latex
-Dockerfile for LaTeX
+# docker-latex
+Docker container for LaTeX
 
 A sample for devcontainer.json
 ```json
