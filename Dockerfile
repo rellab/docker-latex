@@ -10,6 +10,8 @@ RUN apt-get update && \
     texlive-latex-extra \
     texlive-pictures \
     texlive-fonts-recommended \
+    texlive-lang-japanese \
+    latexmk \
     graphviz \
     ghostscript \
     aspell aspell-en \
