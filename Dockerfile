@@ -11,6 +11,7 @@ RUN apt-get update && \
     texlive-pictures \
     texlive-fonts-recommended \
     graphviz \
+    ghostscript \
     aspell aspell-en \
     locales \
     fonts-noto-cjk && \

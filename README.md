@@ -1,6 +1,16 @@
 # docker-latex
 Docker container for LaTeX
 
+## Build
+
+```bash
+GITHUB_USER=okamumu GITHUB_TOKEN=xxxx make build
+```
+
+```bash
+GITHUB_USER=okamumu GITHUB_TOKEN=xxxx make push
+```
+
 ## Usage
 
 ```bash
@@ -17,7 +27,6 @@ A sample for devcontainer.json
     "customizations": {
         "vscode": {
             "extensions": [
-                "mhutchie.git-graph",
                 "James-Yu.latex-workshop",
                 "nopeslide.vscode-drawio-plugin-mermaid"
             ],

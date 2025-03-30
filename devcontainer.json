@@ -1,10 +1,9 @@
 {
-    "name": "mylatex",
-    "image": "okamumu/texlive:latest",
+    "name": "docker-latex",
+    "image": "ghcr.io/rellab/docker-latex:latest",
     "customizations": {
         "vscode": {
             "extensions": [
-                "mhutchie.git-graph",
                 "James-Yu.latex-workshop",
                 "nopeslide.vscode-drawio-plugin-mermaid"
             ],
